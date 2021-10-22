@@ -1,0 +1,133 @@
+body{
+    border-style:solid;
+    border-width: 10px;
+    border-color:rgb(75, 15, 15);
+}
+
+header{
+    max-width: 100%;
+    max-height: auto;
+    background-image: url(https://wallpaperaccess.com/full/1356102.jpg); 
+    margin-bottom: -30mm;
+    padding-bottom: 25cm;
+}
+
+.display-4{
+    color:lavender;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#lead{
+    color: lavender;
+    text-align: center;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    
+    
+}
+
+@keyframes slide {
+    from{
+        margin-top: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-bottom: 0%;
+        width: 100%;
+    }
+}
+main {
+    background-color:slategrey;
+
+}
+
+.clearfix{
+    margin-top: 1cm;
+    margin-bottom: 6mm;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin:auto
+
+}
+
+#heading{
+    text-align: center;
+    text-decoration-line: underline;
+    
+}
+
+#Skills{
+    background-color: lightblue;
+
+    
+}
+
+#Education{
+    background-color:white;
+    padding-bottom: 2cm;
+    justify-content: center;
+}
+
+.card{
+    
+    text-align:center;
+    height: 6cm;
+    width: 18rem;
+    border-style:dashed;
+    border-width: 0.5mm;
+    border-color: rgb(84, 87, 88);
+    margin: auto;
+    margin-top: 1cm;
+
+    
+}
+
+.card-img{
+    height: 20mm;
+    width: 20mm;
+    margin: auto;
+    margin-top: 5mm;
+
+}
+
+#Exp{
+    background-color: lightblue;
+}
+
+footer{
+    padding-bottom: 10mm;
+    background-color: slategray;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 1cm;
+    width: 1cm;
+    margin:auto;
+    margin-left: 3mm;
+    margin-top: 5mm;
+    object-fit: cover;
+}
+
